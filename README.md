@@ -8,4 +8,4 @@ Requires Heiko Oberdiek's [`pdfcrop`](https://ctan.org/pkg/pdfcrop) (included in
 `./crop_changed_pdfs.sh <directory containing pdfs to be cropped>`
 
 
-For example, in [TexStudio](https://github.com/texstudio-org/texstudio), you might want to define a new user command, `crop_changed_pdfs:Crop changed PDFs`, say, that executes `bash "/mnt/c/<path to>/crop_changed_pdfs/crop_changed_pdfs.sh" "?a)figures"` and perhaps add it to you `Precompile` as `txs:///crop_changed_pdfs`, 
+For example, in [TexStudio](https://github.com/texstudio-org/texstudio), you might want to define a new user command, `crop_changed_pdfs:Crop changed PDFs`, say, that executes `bash "/mnt/c/<path to>/crop_changed_pdfs/crop_changed_pdfs.sh" "?a)figures"` and perhaps add it to you `Precompile` as `txs:///crop_changed_pdfs`.
